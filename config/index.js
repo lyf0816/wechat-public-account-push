@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "wx307024cae2e78018",
+  APP_ID: "",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "fa503caa99e377e847bebea93920de41",
+  APP_SECRET: "",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -51,7 +51,7 @@ export const config = {
 
   // 每日一言的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: "渣渣鹏",
+  LITERARY_PREFERENCE: "",
   
 
   /**
@@ -60,11 +60,11 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "傻逼",
+      name: "",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ogGP86u-sPVjInI5cZ55JwyagB68",
+      id: "",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "RrkT79iVRLtySFS_M2eCZCgWCmexL3Ja7WOBCIihh28",
+      useTemplateId: "",
       // 所在省份
       province: "内蒙古",
       // 所在城市
@@ -147,7 +147,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ogGP86uyXfV3Ae-T1tkuzM3VvKhw",
+      id: "",
     },
     // 你可以不断按格式往下增加
     // ...
